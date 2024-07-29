@@ -7,12 +7,12 @@ let selectedAction = null;
 // Initialize game
 function initGame() {
     // Create player units
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 3; i++) {
         playerUnits.push({ health: 100, cover: 3 });
     }
     // Create enemy units
     for (let i = 0; i < 3; i++) {
-        enemyUnits.push({ health: 100, cover: 3 });
+        enemyUnits.push({ health: 100, cover: 2 });
     }
     updateUI();
 }
